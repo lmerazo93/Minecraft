@@ -1187,8 +1187,8 @@ GameObject:
   - component: {fileID: 1657458502}
   - component: {fileID: 1657458501}
   - component: {fileID: 1657458500}
-  - component: {fileID: 1657458499}
-  - component: {fileID: 1657458498}
+  - component: {fileID: 1657458505}
+  - component: {fileID: 1657458504}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1196,37 +1196,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1657458498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657458497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f63ecf29d38d44ac8c3d57d1de5ff92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageTrackingManager: {fileID: 814492953}
-  targetImageName: FryHelmet
-  buildingWorldPrefab: {fileID: 3334310345991546815, guid: 35f9034e06df94d3d81e8941793d1da8, type: 3}
-  spawnPoint: {fileID: 0}
---- !u!114 &1657458499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657458497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3421c6a6a95c4128af6680da3bbd8fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  testLatitude: 34.0608
-  testLongitude: -117.655
-  rewardTextUI: {fileID: 489052543}
 --- !u!114 &1657458500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,6 +1265,37 @@ Transform:
   - {fileID: 184604434}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657458504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657458497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6ccdc61e4e7431bbd67af6921e4442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testLatitude: 34.0608
+  testLongitude: -117.655
+  rewardTextUI: {fileID: 0}
+--- !u!114 &1657458505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657458497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b68d460fd3a64f86a1915f558bcec7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageTrackingManager: {fileID: 814492953}
+  targetImageName: FryHelmet
+  buildingWorldPrefab: {fileID: 3334310345991546815, guid: 68cdca8b7abe44217a22f34bc74dcd60, type: 3}
+  spawnPoint: {fileID: 0}
 --- !u!1 &1784313857
 GameObject:
   m_ObjectHideFlags: 0
