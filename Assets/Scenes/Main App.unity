@@ -577,7 +577,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1228,7 +1229,7 @@ MonoBehaviour:
   <trackablesChanged>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  m_SerializedLibrary: {fileID: 0}
+  m_SerializedLibrary: {fileID: 11400000, guid: 5cf1634c5f1e1462689d34c3a0b4b203, type: 2}
   m_MaxNumberOfMovingImages: 0
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &1657458502
@@ -1274,7 +1275,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1657458497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6ccdc61e4e7431bbd67af6921e4442, type: 3}
+  m_Script: {fileID: 11500000, guid: 68412486b5c364f42b3b6516868ad8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   testLatitude: 34.0608
@@ -1289,12 +1290,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1657458497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b68d460fd3a64f86a1915f558bcec7f, type: 3}
+  m_Script: {fileID: 11500000, guid: e84d6e14e40444aad8aa33a91ee4b2d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imageTrackingManager: {fileID: 814492953}
   targetImageName: FryHelmet
-  buildingWorldPrefab: {fileID: 3334310345991546815, guid: 68cdca8b7abe44217a22f34bc74dcd60, type: 3}
+  buildingWorldPrefab: {fileID: 2474948667701380298, guid: d304c834af82f4a088f81018a8601fd4, type: 3}
   spawnPoint: {fileID: 0}
 --- !u!1 &1784313857
 GameObject:
