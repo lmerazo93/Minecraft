@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "395281430892",
+    "project_id": "minecraft-d937f",
+    "storage_bucket": "minecraft-d937f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395281430892:ios:cce0f04b58ad3d061c1b49",
+        "android_client_info": {
+          "package_name": "com.Gia.Minecraft"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrjBcxDKQm1wDNZxO6vJ_NKwniEOXm-nM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
